@@ -1,4 +1,4 @@
-from ..app import app  # Importe l'application Flask
+from app import app  # Importe l'application Flask
 
 def test_hello():
     client = app.test_client()  # Simule un client HTTP
